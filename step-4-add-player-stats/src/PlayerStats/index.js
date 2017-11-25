@@ -9,7 +9,10 @@ const PlayerStats = ({ life, experience, level }) => {
         <div className="player-stats-bar-inner" style={{ width: `${life}%` }} />
       </div>
       <div className="player-stats-bar player-stats-experience">
-        <div className="player-stats-bar-inner" />
+        <div
+          className="player-stats-bar-inner"
+          style={{ width: `${experience}%` }}
+        />
       </div>
     </div>
   );

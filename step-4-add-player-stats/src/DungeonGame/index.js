@@ -216,7 +216,7 @@ class Dungeon extends Component {
       <div className="dungeon">
         <PlayerStats
           life={this.state.playerLife}
-          experience={this.state.playerExperience}
+          experience={this.state.playerExperience / 200 * 100}
           level={this.state.playerLevel}
         />
         <div

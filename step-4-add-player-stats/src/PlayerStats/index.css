@@ -4,7 +4,7 @@
 }
 
 .player-stats .player-stats-bar {
-  width: 400px;
+  width: 100%;
   height: 20px;
   border-radius: 3px;
   background-color: rgba(0, 0, 0, 0.1);
@@ -16,4 +16,8 @@
 
 .player-stats .player-stats-life .player-stats-bar-inner {
   background-color: red;
+}
+
+.player-stats .player-stats-experience .player-stats-bar-inner {
+  background-color: blue;
 }

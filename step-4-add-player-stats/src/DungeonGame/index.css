@@ -1,3 +1,21 @@
+.dungeon {
+  display: flex;
+  flex-direction: column;
+  width: 1280px;
+  display: block;
+  margin: 0 auto;
+}
+
+.dungeon-game {
+  display: flex;
+  flex-direction: column;
+  outline: none;
+}
+
+.dungeon-game:focus {
+  outline: none;
+}
+
 .dungeon-row {
   display: flex;
 }
