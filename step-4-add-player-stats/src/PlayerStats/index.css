@@ -1,0 +1,19 @@
+.player-stats {
+  display: flex;
+  flex-direction: column;
+}
+
+.player-stats .player-stats-bar {
+  width: 400px;
+  height: 20px;
+  border-radius: 3px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.player-stats .player-stats-bar-inner {
+  height: 100%;
+}
+
+.player-stats .player-stats-life .player-stats-bar-inner {
+  background-color: red;
+}
