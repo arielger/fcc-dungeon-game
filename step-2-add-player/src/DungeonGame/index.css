@@ -1,0 +1,28 @@
+.dungeon-row {
+  display: flex;
+}
+
+.dungeon-cell {
+  width: 20px;
+  height: 20px;
+}
+
+.dungeon-cell.empty {
+  background-color: white;
+}
+
+.dungeon-cell.wall {
+  background-color: black;
+}
+
+.dungeon-cell.food {
+  background-color: green;
+}
+
+.dungeon-cell.enemy {
+  background-color: red;
+}
+
+.dungeon-cell.player {
+  background-color: violet;
+}
