@@ -1,0 +1,20 @@
+.dungeon-row {
+  display: flex;
+}
+
+.dungeon-cell {
+  width: 32px;
+  height: 32px;
+  background-color: white;
+  background-size: 256px;
+  background-repeat: no-repeat;
+  image-rendering: pixelated;
+}
+
+.dungeon-cell.empty {
+  background-color: white;
+}
+
+.dungeon-cell.wall {
+  background-color: black;
+}
